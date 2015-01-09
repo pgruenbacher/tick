@@ -190,7 +190,6 @@
   box-shadow: 0 0 6px #969696;
   color: #1e1e1e;
   line-height: 1;
-  font-size: 4em;
   text-align: center;
   background-color: #3c3c3c;
 }
@@ -239,6 +238,22 @@
   +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 */
 /* line 205, ../scss/tick.scss */
+@media screen and (min-width:520px){
+  .tick-scroll{
+    font-size: 4em;
+  }
+  .tick-scroll .tick-wheel{
+    width:50px;
+  }
+}
+@media screen and (max-width:520px) and (min-width:340px){
+  .tick-scroll{
+    font-size: 2.5em;
+  }
+  .tick-scroll .tick-wheel{
+    width:30px;
+  }
+}
 .tick-scroll .tick-wheel {
   position: relative;
   display: inline-block;
