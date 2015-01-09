@@ -246,18 +246,17 @@
     width:50px;
   }
 }
-@media screen and (max-width:520px) and (min-width:340px){
+@media screen and (max-width:520px) and (min-width:240px){
   .tick-scroll{
-    font-size: 2.5em;
+    font-size: 4em;
   }
   .tick-scroll .tick-wheel{
-    width:30px;
+    width:35px;
   }
 }
 .tick-scroll .tick-wheel {
   position: relative;
   display: inline-block;
-  width: 50px;
   border-right: 1px solid #6e6e6e;
   border-left: 1px solid #6e6e6e;
   margin: 0 2px;
